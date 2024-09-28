@@ -23,4 +23,7 @@ This is a simple web-based project where you can turn a light bulb on and off us
 
 ## Installation
 
--
+To run the project locally:
+- Clone the repository.
+  ```bash
+  gh repo clone JVN-010/LightBulb
