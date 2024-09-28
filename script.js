@@ -1,7 +1,12 @@
 const lightBulb = document.getElementById("lightBulb");
 const switchButton = document.getElementById("toogleButton");
 
-let isLightOn = false;
+let isLightOn = true;
+
+if (isLightOn) {
+  lightBulb.style.backgroundColor = "yellow";
+  switchButton.textContent = "Turn Off";
+}
 
 switchButton.addEventListener("click", function () {
   if (isLightOn) {
